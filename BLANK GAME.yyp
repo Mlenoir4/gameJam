@@ -47,6 +47,8 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"id":{"name":"define_states","path":"scripts/define_states/define_states.yy",},},
+    {"id":{"name":"hearthbeat","path":"sounds/hearthbeat/hearthbeat.yy",},},
+    {"id":{"name":"theme","path":"sounds/theme/theme.yy",},},
     {"id":{"name":"background_1","path":"sprites/background_1/background_1.yy",},},
     {"id":{"name":"background_2","path":"sprites/background_2/background_2.yy",},},
     {"id":{"name":"background_3","path":"sprites/background_3/background_3.yy",},},

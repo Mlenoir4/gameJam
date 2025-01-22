@@ -1,7 +1,7 @@
 
 
 
-wave_speed = wave_speed - (heart_bonus * 0.50)
+wave_speed = wave_speed - (heart_bonus * 0.02)
 heart_bonus = 0
 y -= wave_speed;
 

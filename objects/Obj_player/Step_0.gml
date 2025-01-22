@@ -136,3 +136,17 @@ if (animation_timer >= 1) {
     }
 }
 
+
+//wave Soundd
+var d = distance_to_object(Obj_wave);
+show_debug_message(d)
+if (d < 600){
+	if (audio_is_playing(hearthbeat)){
+		audio_sound_gain(hearthbeat, (600 - d) / 600, 0)
+	} else {
+		audio_play_sound(hearthbeat,10,true);
+		audio_sound_gain(hearthbeat, (600 - d) / 600, 0)
+	}
+} else {
+	audio_stop_sound(hearthbeat); 
+}

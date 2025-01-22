@@ -26,6 +26,7 @@
     {"name":"Obj_player","order":1,"path":"objects/Obj_player/Obj_player.yy",},
     {"name":"Obj_wave","order":3,"path":"objects/Obj_wave/Obj_wave.yy",},
     {"name":"Room2","order":1,"path":"rooms/Room2/Room2.yy",},
+    {"name":"theme","order":1,"path":"sounds/theme/theme.yy",},
     {"name":"background_1","order":5,"path":"sprites/background_1/background_1.yy",},
     {"name":"background_2","order":9,"path":"sprites/background_2/background_2.yy",},
     {"name":"background_3","order":8,"path":"sprites/background_3/background_3.yy",},
