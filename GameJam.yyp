@@ -35,6 +35,7 @@
   },
   "name":"BLANK GAME",
   "resources":[
+    {"id":{"name":"Obj_flower_1","path":"objects/Obj_flower_1/Obj_flower_1.yy",},},
     {"id":{"name":"Obj_paralax","path":"objects/Obj_paralax/Obj_paralax.yy",},},
     {"id":{"name":"Obj_plateform_parent","path":"objects/Obj_plateform_parent/Obj_plateform_parent.yy",},},
     {"id":{"name":"Obj_plateform_vertical","path":"objects/Obj_plateform_vertical/Obj_plateform_vertical.yy",},},
@@ -49,6 +50,7 @@
     {"id":{"name":"background_2","path":"sprites/background_2/background_2.yy",},},
     {"id":{"name":"background_3","path":"sprites/background_3/background_3.yy",},},
     {"id":{"name":"background","path":"sprites/background/background.yy",},},
+    {"id":{"name":"flower1","path":"sprites/flower1/flower1.yy",},},
     {"id":{"name":"plateforme","path":"sprites/plateforme/plateforme.yy",},},
     {"id":{"name":"Platform_horizontal","path":"sprites/Platform_horizontal/Platform_horizontal.yy",},},
     {"id":{"name":"Platform_vertical","path":"sprites/Platform_vertical/Platform_vertical.yy",},},
