@@ -1,3 +1,8 @@
+
+
+
+wave_speed = wave_speed - (heart_bonus * 0.50)
+heart_bonus = 0
 y -= wave_speed;
 
 if (place_meeting(x, y, Obj_player)) {

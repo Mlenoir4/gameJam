@@ -8,7 +8,7 @@
     "children":[],
     "name":"Default",
   },
-  "defaultScriptType":0,
+  "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Chemins d'accès","folderPath":"folders/Chemins d'accès.yy","name":"Chemins d'accès","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Chronologies","folderPath":"folders/Chronologies.yy","name":"Chronologies","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -35,6 +35,7 @@
   },
   "name":"BLANK GAME",
   "resources":[
+    {"id":{"name":"Obj_bonus","path":"objects/Obj_bonus/Obj_bonus.yy",},},
     {"id":{"name":"Obj_flower_1","path":"objects/Obj_flower_1/Obj_flower_1.yy",},},
     {"id":{"name":"Obj_paralax","path":"objects/Obj_paralax/Obj_paralax.yy",},},
     {"id":{"name":"Obj_plateform_parent","path":"objects/Obj_plateform_parent/Obj_plateform_parent.yy",},},
@@ -50,6 +51,7 @@
     {"id":{"name":"background_2","path":"sprites/background_2/background_2.yy",},},
     {"id":{"name":"background_3","path":"sprites/background_3/background_3.yy",},},
     {"id":{"name":"background","path":"sprites/background/background.yy",},},
+    {"id":{"name":"bonus","path":"sprites/bonus/bonus.yy",},},
     {"id":{"name":"flower1","path":"sprites/flower1/flower1.yy",},},
     {"id":{"name":"plateforme","path":"sprites/plateforme/plateforme.yy",},},
     {"id":{"name":"Platform_horizontal","path":"sprites/Platform_horizontal/Platform_horizontal.yy",},},
