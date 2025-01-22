@@ -26,6 +26,7 @@
     {"name":"background_2","order":9,"path":"sprites/background_2/background_2.yy",},
     {"name":"background_3","order":8,"path":"sprites/background_3/background_3.yy",},
     {"name":"background","order":4,"path":"sprites/background/background.yy",},
+    {"name":"Platform","order":11,"path":"sprites/Platform/Platform.yy",},
     {"name":"player","order":2,"path":"sprites/player/player.yy",},
     {"name":"player1","order":1,"path":"sprites/player1/player1.yy",},
     {"name":"wave","order":10,"path":"sprites/wave/wave.yy",},

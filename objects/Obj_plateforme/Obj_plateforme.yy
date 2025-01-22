@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"plateforme",
-    "path":"sprites/plateforme/plateforme.yy",
+    "name":"Platform",
+    "path":"sprites/Platform/Platform.yy",
   },
   "spriteMaskId":null,
   "visible":true,
