@@ -49,9 +49,9 @@ if (keyboard_check(vk_shift)) {
 }
 
 var _subPixel = 0.5;
-if (place_meeting(x + xspd, y, Obj_plateforme)) {
+if (place_meeting(x + xspd, y, Obj_plateform_parent)) {
     var _pixelCheck = _subPixel * sign(xspd);
-    while (!place_meeting(x + _pixelCheck, y, Obj_plateforme)) {
+    while (!place_meeting(x + _pixelCheck, y, Obj_plateform_parent)) {
         x += _pixelCheck;
     }
     xspd = 0;
@@ -66,14 +66,14 @@ x = clamp(x, view_left, view_right - sprite_width);
 // --- DÉPLACEMENT VERTICAL ---
 yspd += grav;
 
-if (jumpKeyPressed && place_meeting(x, y + 1, Obj_plateforme)) {
+if (jumpKeyPressed && place_meeting(x, y + 1, Obj_plateform_parent)) {
     yspd = jspd;
 }
 
 var _subPixel = 0.5;
-if (place_meeting(x, y + yspd, Obj_plateforme)) {
+if (place_meeting(x, y + yspd, Obj_plateform_parent)) {
     var _pixelCheck = _subPixel * sign(yspd);
-    while (!place_meeting(x, y + _pixelCheck, Obj_plateforme)) {
+    while (!place_meeting(x, y + _pixelCheck, Obj_plateform_parent)) {
         y += _pixelCheck;
     }
     yspd = 0;
@@ -98,7 +98,7 @@ switch (state) {
         }
 
 
-        if (!place_meeting(x, y + 1, Obj_plateforme)) {
+        if (!place_meeting(x, y + 1, Obj_plateform_parent)) {
             state = State.Jumping;
         }
 		
@@ -113,7 +113,7 @@ switch (state) {
         current_row = 26
 		max_frame = 5
 
-        if (place_meeting(x, y + 1, Obj_plateforme)) {
+        if (place_meeting(x, y + 1, Obj_plateform_parent)) {
             if (moveDir == 0) state = State.Idle;
             else state = State.Walking;
         }

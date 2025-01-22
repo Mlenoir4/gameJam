@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_plateforme",
+  "%Name":"Obj_plateform_parent",
   "eventList":[],
   "managed":true,
-  "name":"Obj_plateforme",
+  "name":"Obj_plateform_parent",
   "overriddenProperties":[],
   "parent":{
     "name":"Objets",
@@ -27,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Platform",
-    "path":"sprites/Platform/Platform.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

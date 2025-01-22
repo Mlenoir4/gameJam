@@ -19,7 +19,7 @@ while (y_position > max_platform_height) {
     var platform_width = random_range(min_platform_width, max_platform_width);
     var x_position = random_range(0, level_width - platform_width);
 
-    var platform = instance_create_layer(x_position, y_position, "Instances", Obj_plateforme);
+    var platform = instance_create_layer(x_position, y_position, "Instances", Obj_plateform_parent);
 
     platform.image_xscale = 5;
 
@@ -30,8 +30,8 @@ while (y_position > max_platform_height) {
 }
 
 // Ajouter une plateforme de sol pour la stabilité du niveau
-var platform1 = instance_create_layer(0, level_height, "Instances", Obj_plateforme);
+var platform1 = instance_create_layer(0, level_height, "Instances", Obj_plateform_parent);
 platform1.image_xscale = 3;
 
-var platform2 = instance_create_layer(level_width , level_height, "Instances", Obj_plateforme);
+var platform2 = instance_create_layer(level_width , level_height, "Instances", Obj_plateform_parent);
 platform2.image_xscale = 3;
