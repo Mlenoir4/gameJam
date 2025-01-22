@@ -58,6 +58,11 @@ if (place_meeting(x + xspd, y, Obj_plateforme)) {
 }
 x += xspd;
 
+// Empêcher de sortir de l'écran horizontalement
+var view_left = camera_get_view_x(camera_id);
+var view_right = view_left + camera_get_view_width(camera_id);
+x = clamp(x, view_left, view_right - sprite_width);
+
 // --- DÉPLACEMENT VERTICAL ---
 yspd += grav;
 
