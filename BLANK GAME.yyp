@@ -37,6 +37,8 @@
   "name":"BLANK GAME",
   "resources":[
     {"id":{"name":"Obj_bonus","path":"objects/Obj_bonus/Obj_bonus.yy",},},
+    {"id":{"name":"Obj_button_play","path":"objects/Obj_button_play/Obj_button_play.yy",},},
+    {"id":{"name":"Obj_button_quit","path":"objects/Obj_button_quit/Obj_button_quit.yy",},},
     {"id":{"name":"Obj_flower_1","path":"objects/Obj_flower_1/Obj_flower_1.yy",},},
     {"id":{"name":"Obj_lover","path":"objects/Obj_lover/Obj_lover.yy",},},
     {"id":{"name":"Obj_paralax","path":"objects/Obj_paralax/Obj_paralax.yy",},},
@@ -58,6 +60,7 @@
     {"id":{"name":"background_1","path":"sprites/background_1/background_1.yy",},},
     {"id":{"name":"background_2","path":"sprites/background_2/background_2.yy",},},
     {"id":{"name":"background_3","path":"sprites/background_3/background_3.yy",},},
+    {"id":{"name":"background_menu","path":"sprites/background_menu/background_menu.yy",},},
     {"id":{"name":"background","path":"sprites/background/background.yy",},},
     {"id":{"name":"bonus","path":"sprites/bonus/bonus.yy",},},
     {"id":{"name":"flower1","path":"sprites/flower1/flower1.yy",},},
@@ -73,8 +76,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

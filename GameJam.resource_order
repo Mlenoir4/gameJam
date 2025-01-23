@@ -19,6 +19,8 @@
   ],
   "ResourceOrderSettings":[
     {"name":"Obj_bonus","order":7,"path":"objects/Obj_bonus/Obj_bonus.yy",},
+    {"name":"Obj_button_play","order":9,"path":"objects/Obj_button_play/Obj_button_play.yy",},
+    {"name":"Obj_button_quit","order":10,"path":"objects/Obj_button_quit/Obj_button_quit.yy",},
     {"name":"Obj_flower_1","order":6,"path":"objects/Obj_flower_1/Obj_flower_1.yy",},
     {"name":"Obj_lover","order":8,"path":"objects/Obj_lover/Obj_lover.yy",},
     {"name":"Obj_plateform_parent","order":4,"path":"objects/Obj_plateform_parent/Obj_plateform_parent.yy",},
@@ -35,6 +37,7 @@
     {"name":"background_1","order":5,"path":"sprites/background_1/background_1.yy",},
     {"name":"background_2","order":9,"path":"sprites/background_2/background_2.yy",},
     {"name":"background_3","order":8,"path":"sprites/background_3/background_3.yy",},
+    {"name":"background_menu","order":16,"path":"sprites/background_menu/background_menu.yy",},
     {"name":"background","order":4,"path":"sprites/background/background.yy",},
     {"name":"bonus","order":15,"path":"sprites/bonus/bonus.yy",},
     {"name":"flower1","order":14,"path":"sprites/flower1/flower1.yy",},
