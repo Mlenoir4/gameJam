@@ -38,6 +38,7 @@
   "resources":[
     {"id":{"name":"Obj_bonus","path":"objects/Obj_bonus/Obj_bonus.yy",},},
     {"id":{"name":"Obj_flower_1","path":"objects/Obj_flower_1/Obj_flower_1.yy",},},
+    {"id":{"name":"Obj_lover","path":"objects/Obj_lover/Obj_lover.yy",},},
     {"id":{"name":"Obj_paralax","path":"objects/Obj_paralax/Obj_paralax.yy",},},
     {"id":{"name":"Obj_plateform_parent","path":"objects/Obj_plateform_parent/Obj_plateform_parent.yy",},},
     {"id":{"name":"Obj_plateform_vertical","path":"objects/Obj_plateform_vertical/Obj_plateform_vertical.yy",},},
@@ -53,6 +54,7 @@
     {"id":{"name":"hearthbeat","path":"sounds/hearthbeat/hearthbeat.yy",},},
     {"id":{"name":"menu_change_select","path":"sounds/menu_change_select/menu_change_select.yy",},},
     {"id":{"name":"theme","path":"sounds/theme/theme.yy",},},
+    {"id":{"name":"victory","path":"sounds/victory/victory.yy",},},
     {"id":{"name":"background_1","path":"sprites/background_1/background_1.yy",},},
     {"id":{"name":"background_2","path":"sprites/background_2/background_2.yy",},},
     {"id":{"name":"background_3","path":"sprites/background_3/background_3.yy",},},
