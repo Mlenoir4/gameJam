@@ -10,6 +10,7 @@ if (place_meeting(x, y, Obj_player)) {
 	audio_sound_gain(death, 1, 0)
     show_message("Game Over!");
 	instance_destroy();
+	room_goto_previous()
 	
 }
 
