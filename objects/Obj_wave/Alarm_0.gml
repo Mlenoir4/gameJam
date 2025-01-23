@@ -1,0 +1,1 @@
+Obj_wave.wave_speed += 0.25
